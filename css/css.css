@@ -1,0 +1,265 @@
+.navbar-default{
+	background: transparent;
+	border: 0px;
+}
+.backop{
+	background-color: rgba(1, 1, 0.6, 2);
+	height: 470px;
+	opacity: 0.7;
+	color: white;
+	z-index: -1;
+}
+.new{
+z-index: 1;
+	position: relative;
+	top: -470px;
+}
+@media (max-width: 768px){
+	#cedn{
+		text-align: center;
+	}
+    .icontit{
+        text-align: center;
+
+    }
+}
+.empti{
+	height: 280px;
+}
+#empty{
+    height: 50px;
+}
+.backopacs{
+	background-color: rgba(1, 1, 0.6, 2);
+	height: 400px;
+	opacity: 0.5;
+	z-index: -1;
+}
+.baked{
+	z-index: 1;
+	position: relative;
+	top: -470px;
+}
+#overlay{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(0,0,0,0.7);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transition: .3s linear;
+  z-index: 1;
+}
+#img1:hover #overlay{
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.text{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#overlay2{
+	   position: absolute;
+  bottom: 0;
+  left: 46px;
+  right: 0;
+  border-radius: 100%;
+  background: rgb(0,0,0,0.7);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+#img2:hover #overlay2{
+  height: 200px;
+  width: 200px;
+}
+.kf input{
+	height: 40px;
+	width: 100%;
+	background-color: transparent;
+	border: 1px solid grey; 
+}
+@media (max-width: 1199px){
+	#overlay2{
+	   position: absolute;
+  bottom: 0;
+  left: 21px;
+  right: 0;
+  border-radius: 100%;
+  background: rgb(0,0,0,0.7);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+}
+#overlay2 h1{
+	font-size: 35px;
+	padding-left: 0px;
+	padding-top: 60px;
+	color: white;
+}
+@media (max-width: 991px){
+	#overlay2{
+	   position: absolute;
+  bottom: 0;
+  left: 15px;
+  right: 0;
+  border-radius: 100%;
+  background: rgb(0,0,0,0.7);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+	}
+	#img2:hover #overlay2{
+  height: 157px;
+  width: 157px;
+	}
+	#overlay2 h1{
+	font-size: 25px;
+	padding-left: 0px;
+	padding-top: 45px;
+	color: white;
+}
+}
+@media (max-width: 767px){
+	#overlay2{
+	   position: absolute;
+  bottom: 0;
+  left: 82px;
+  right: 0;
+  border-radius: 100%;
+  background: rgb(0,0,0,0.7);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+	}
+	#img2:hover #overlay2{
+  height:201px;
+  width: 201px;
+	}
+	#overlay2 h1{
+	font-size: 35px;
+	padding-left: 0px;
+	padding-top: 60px;
+	color: white;
+}
+}
+
+@media (max-width: 742px){
+	#overlay2{
+	   position: absolute;
+  bottom: 0;
+  left: 82px;
+  right: 0;
+  border-radius: 100%;
+  background: rgb(0,0,0,0.7);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+	}
+	#img2:hover #overlay2{
+  height:198px;
+  width: 198px;
+	}
+	#overlay2 h1{
+	font-size: 35px;
+	padding-left: 0px;
+	padding-top: 50px;
+	color: white;
+}
+}
+@media (max-width: 418px){
+	#overlay2{
+	   position: absolute;
+  bottom: 0;
+  left:9% !important;
+  right: 0;
+  border-radius: 100%;
+  background: rgb(0,0,0,0.7);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+	}
+	#img2:hover #overlay2{
+  height:170px;
+  width: 170px;
+	}
+}
+@media (max-width: 699px){
+	#overlay2{
+	   position: absolute;
+  bottom: 0;
+  left: 20%;
+  right: 0;
+  border-radius: 100%;
+  background: rgb(0,0,0,0.7);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+	}
+}
+@media (max-width: 460px){
+	#overlay2{
+	   position: absolute;
+  bottom: 0;
+  left: 10%;
+  right: 0;
+  border-radius: 100%;
+  background: rgb(0,0,0,0.7);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+	}
+}
+@media (max-width: 650px){
+	#overlay2{
+	   position: absolute;
+  bottom: 0;
+  left: 10%;
+  right: 0;
+  border-radius: 100%;
+  background: rgb(0,0,0,0.7);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+	}
+}
+#particles-js{
+	height: 95%;
+	width: 100%;
+	background-color: black;
+	z-index: -1;
+	position: absolute;
+}
+#c-f{
+	z-index: 2;
+	background-color:transparent;
+}
+@media (max-width: 768px){
+	#particles-js{
+	height: 975px;
+	width: 100%;
+	background-color: black;
+	z-index: -1;
+	position: absolute;
+	}
+}
